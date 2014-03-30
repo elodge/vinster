@@ -32,11 +32,20 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem "figaro"
+# to hide AWS credentials from github
+
 gem 'carrierwave'
+#to deal with pictures
+#Need FOG gem in order to deal with AWS
+
+gem "fog", "~> 1.3.1"
 
 gem 'simple_form'
 
 gem 'bootstrap-sass', '~> 3.1.1'
+
+
 
 
 
