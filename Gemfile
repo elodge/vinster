@@ -32,6 +32,8 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'carrierwave'
+
 gem 'simple_form'
 
 gem 'bootstrap-sass', '~> 3.1.1'

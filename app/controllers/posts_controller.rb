@@ -19,8 +19,8 @@ class PostsController < ApplicationController
 	private 
 
 	def post_params
-		params.require(:post).permit(:title, :description)
+		params.require(:post).permit(:title, :description, :image)
 	end
-	#this allows us to suck out information from the form
+		#this allows us to suck out information from the form
 
 end
